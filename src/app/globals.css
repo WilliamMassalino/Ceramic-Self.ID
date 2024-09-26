@@ -1,0 +1,46 @@
+/* Make main content container responsive */
+.main {
+  min-height: 100vh;
+  max-width: 1200px; /* Set a max-width */
+  margin: 0 auto; /* Center the content */
+  padding: 0 2%; /* Add some padding on the sides */
+}
+
+/* Ensure the navbar takes full width */
+.navbar {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1% 2%;
+  background-color: orange;
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+}
+
+/* Make the content fit within the container */
+.content {
+  height: 80%;
+  width: 100%;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+}
+
+/* Adjust button styles */
+.button {
+  background-color: azure;
+  padding: 0.5%;
+  border-radius: 10%;
+  border: 0px;
+  font-size: 16px;
+  cursor: pointer;
+  max-width: 300px; /* Add a max-width to the button */
+  width: 100%; /* Make it responsive */
+}
+
+.button:hover {
+  background-color: beige;
+}
